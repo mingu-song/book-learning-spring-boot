@@ -1,0 +1,21 @@
+# 스프링부트 2.0
+## 마이크로서비스와 리액티브 프로그래밍
+#### 에이콘
+
+> active_profile = ch01 으로 각각 설정하여 실행
+
+## Chapter 01
+* embedded mongo db 를 이용한 간단한 Flux<Chapter> 리턴 컨트롤러 작성
+* ChapterController / HomeController
+
+## Chapter 02
+* 리액티브 멀티파트 업로드를 위한 라이브러리
+  * https://github.com/synchronoss/nio-multipart
+  * 하지만 사용하는 곳이 없다 ㅎㅎ (Flux로 받는것처럼 되어 있지만 하나만 업로드 됨. 다음에 나오나..)
+* 해당 챕터는 먼가 안되는게 많네 스프링 버전탓인지...
+  * Files.newDirectoryStream => Files.list 로 변경 :: 리액티브에서 처리되지 않아서 변경
+  * HiddenHttpMethodFilter => 삭제 :: 신기하게 delete 요청이 post로 들어온다;; rest controller가 아니어서 그런가..
+  
+
+    
+
