@@ -24,7 +24,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
 
-    implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
+//    implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
 
 //    implementation 'org.synchronoss.cloud:nio-multipart-parser:1.1.0'
 

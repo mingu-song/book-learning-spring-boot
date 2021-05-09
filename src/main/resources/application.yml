@@ -9,3 +9,12 @@ management:
   endpoint:
     health:
       enabled: true
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      username: test
+      password: test
+      database: test
